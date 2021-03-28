@@ -4,13 +4,13 @@
 
 ## Technology & Skills
 
-**Technical Skills:** Regression, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, Machine Learning, Bias-Variance Tradeoff, Imputation Method, Model Validation, Statistics, Feature Engineering, Regularization, Ensemble Models, K-Means Clustering, Pipeline, GridSearch, Transfer Learning
+**Technical Skills:** Regression, data cleaning, exploratory data analysis (EDA), data visualization, machine learning, bias-variance tradeoff, imputation method, model validation, statistics, feature engineering, regularization, ensemble models, k-means clustering, pipeline, gridsearch, transfer learning
 
-**Technology:** Python, Jupyter Notebook, GitHub, Git, Command Line
+**Technology:** Python, Jupyter Notebook, GitHub, Git
 
-**Python Libraries:** Pandas, NumPy, Sklearn, Matplotlib, Seaborn, SciPy
+**Python Libraries:** Pandas, numpy, sklearn, matplotlib, seaborn, scipy
 
-**Models:** Multiple Linear Regression, Ridge Regression, LASSO Regression, k-Nearest Neighbors Regressor, Random Forest Regressor, Extra Trees Regressor, Support Vector Regressor, XGBoost Regressor, Principal Components Regression
+**Models:** Multiple linear regression, ridge regression, LASSO regression, k-nearest neighbors regressor, random forest regressor, extra trees regressor, support vector regressor, xgboost regressor, principal components regression
 
 ---
 
