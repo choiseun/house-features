@@ -1,36 +1,42 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Renovating the Features of a House That Matter
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Regression: Predicting House Sale Prices
+
+---
+
+## Technology & Skills
+
+**Technical Skills:** Regression, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, Machine Learning, Bias-Variance Tradeoff, Imputation Method, Model Validation, Statistics, Feature Engineering, Regularization, Ensemble Models, K-Means Clustering, Pipeline, GridSearch, Transfer Learning
+
+**Technology:** Python, Jupyter Notebook, GitHub, Git, Command Line
+
+**Python Libraries:** Pandas, NumPy, Sklearn, Matplotlib, Seaborn, SciPy
+
+**Models:** Multiple Linear Regression, Ridge Regression, LASSO Regression, k-Nearest Neighbors Regressor, Random Forest Regressor, Extra Trees Regressor, Support Vector Regressor, XGBoost Regressor, Principal Components Regression
 
 ---
 
 ## Overview
 
-This project will cover the following:
+This project will cover the following sections:
 
-- Problem statement
-- Data dictionary
-- Summary of analysis
+- Problem Statement
+- Executive Summary
 - Conclusion
-- Data sources
+- Data Sources
+- Data Dictionary
 
 ---
 
 ## Problem Statement
 
-My goal for this project is to create a regression model that can predict the actual sale price of houses in Ames, Iowa within 25,000 USD. The main metrics I will use to evaluate the accuracy of my model include the root mean squared error (RMSE) and the coefficient of determination (R-squared). The RMSE represents the average distance between the predicted and actual sale prices in USD, and R-squared represents the variability in sale price that can be explained by the features I incorporate in my model. A limitation of the RMSE that will play an important role in determining the robustness of my model is that the RMSE is heavily affected by outliers, and I expect outliers to be present in the data. In order to construct a model that reflects mostly signal as opposed to noise, I will utilize a minimal number of features to build my model.
+My goal for this project is to build a regression model that can predict the actual sale price of houses in Ames, Iowa within 25,000 USD. The main metrics I will use to evaluate the accuracy of my model include the root mean squared error (RMSE) and the coefficient of determination (R-squared). The RMSE represents the average distance between the predicted and actual sale prices in USD, and the R-squared represents the variability in sale price that can be explained by the features I incorporate in my model. A limitation of the RMSE is that it is heavily affected by outliers, which I expect to be present in the data.
 
-As a data scientist consulting a real estate agency on house prices, I hope to use my insights to inform real estate agents and homeowners who are looking to sell their houses of the features that contribute the most value to sale price so that they can selectively renovate certain features prior to selling.
-
----
-
-## Data Dictionary
-
-The link to Kaggle's data dictionary can be found [here](https://www.kaggle.com/c/dsir-lancelot-project-2-regression-challenge/data).
+As a data scientist consulting a real estate agency on house prices, I hope to use my insights to inform real estate agents and homeowners on the expected sale price of their houses and the features that contribute the most value to sale price so that the homeowners can selectively renovate certain features prior to selling.
 
 ---
 
-## Summary of Analysis
+## Executive Summary
 
-In the problem statement, I stated that my goal is to build a regression model capable of predicting actual housing sale prices in Ames, Iowa within 25,000 USD. Through multiple rounds of model tuning, I identified at least one model - i.e. Model 4 - that adequately achieves this goal. Of the five models I have explored, the ridge regression model with 14 features performs the best under my evaluation metrics. Despite the limitations of outliers on RMSE and the high number of potential features, I have built a model that is typically 24,410 USD off from the actual sale price and can explain 90.8% of the variability in sale price using 14 features. For this reason, Model 4 is an excellent choice for the production model.
+In the problem statement, I stated that my goals are to build a regression model capable of predicting actual housing sale prices in Ames, Iowa within 25,000 USD and to identify the features that are most important in determining sale price. Through multiple rounds of model tuning, I identified at least one model that adequately achieves this goal. Of the ten models I have explored, Model 4 is the most suitable to be my production model. While Model 10 performs the best at prediction, the model does not offer much interpretability of the features it is using. Model 4, on the other hand, meets both criteria set out in the problem statement. Despite the limitations of outliers on RMSE and the high number of potential features, I have built a model that is typically 24,410 USD off from the actual sale price and can explain 90.8% of the variability in sale price using 14 features. For this reason, Model 4 is an excellent choice for the production model.
 
 ---
 
@@ -44,9 +50,11 @@ The results indicate that no single feature had the biggest effect on sale price
 
 ## Data Sources
 
-Three files were used for this project. The link to the files has been added [here](https://www.kaggle.com/c/dsir-lancelot-project-2-regression-challenge/data).
-- train.csv: This file contains all of the training data for my model.
-- test.csv: This file contains the test data for my model. The target variable, sale price, has been removed from the test set.
-- sample_sub_reg.csv: This file contains an example of a properly formatted submission.
+One csv file was used for this project. The dataset can be found [here](https://www.kaggle.com/c/dsir-lancelot-project-2-regression-challenge/data).
+- train.csv: This file contains all the data for my model.
 
 ---
+
+## Data Dictionary
+
+The data dictionary can be found [here](https://www.kaggle.com/c/dsir-lancelot-project-2-regression-challenge/data).
