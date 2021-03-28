@@ -10,7 +10,7 @@
 
 **Python Libraries:** Pandas, numpy, sklearn, matplotlib, seaborn, scipy
 
-**Models:** Multiple linear regression, ridge regression, LASSO regression, k-nearest neighbors regressor, random forest regressor, extra trees regressor, support vector regressor, xgboost regressor, principal components regression
+**Models:** Multiple linear regression, ridge regression, LASSO regression, k-nearest neighbors regressor, random forest regressor, extra trees regressor, support vector regressor, XGBoost regressor, principal components regression
 
 ---
 
